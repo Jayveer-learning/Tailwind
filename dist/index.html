@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-black h-screen grid place-content-center box-border ">
+    <div class="sm:hidden md:flex">
+        <div>
+            <div>
+                <img class="h-40 w-40 rounded-t-md" src="pw-image.png" alt="pw-image">
+            </div>
+            <div class="bg-slate-700 text-white p-2 box-border">
+                <h1 class="text-center font-semibold text-base pb-1">TialwindCSS</h1>
+                <P class="text-right text-xs">By hitesh Sir.</P>
+            </div>
+        </div>
+    </div>
+    <button class="text-white box-border bg-sky-500 text-center p-1 rounded-b-md 
+    hover:bg-sky-700 hover:font-semibold focus:bg-green-500 dark:bg-red-500 md:rounded-b-none
+    lg:rounded-b-md sm:hidden md:flex md:justify-center">Buy Now</button>
+
+
+    <div class="text-center my-4 text-white bg-green-500 rounded-lg box-border md:text-red-500
+    md:my-0 md:rounded-none md:rounded-b-md md:font-semibold md:bg-white lg:bg-blue-600 lg:font-medium  lg:text-white
+    lg:my-4 lg:rounded-md sm:hidden md:flex md:justify-center">
+        <p>Reponsive Layout</p>
+    </div>
+
+
+    <!-- display according to Breakpoint prefix -->
+    <div class="text-slate-900 md:mt-5 text-center bg-yellow-200 rounded-md md:font-semibold">
+        <p class="sm:hidden">Mobile and Tab</p>
+        <p class="sm:flex sm:justify-center md:hidden lg:hidden hidden sm:p-1 sm:font-semibold sm:bg-gray-700 
+        sm:px-2 text-white">small (640px)</p>
+        <p class="hidden md:flex md:justify-center lg:hidden">medium  (768px)</p> 
+        <p class="md:hidden lg: hidden lg:flex lg:justify-center">large  (1024px)</p>
+    </div>
+    
+</body>
+</html>

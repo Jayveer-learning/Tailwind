@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Using Tailwindcss</title>
+
+    <link rel="stylesheet" href="../dist/style.css">
+</head>
+<body class="h-screen grid place-content-center bg-slate-900 text-black">
+    <div class="max-w-72 overflow-hidden rounded-md md:max-w-md mx-3 md:flex
+    min-w-56">
+        <div class="">
+            <img class="h-48 w-full md:min-w-56 md:max-w-56 md:max-h-96 md:h-full" src="new_york.jpg" alt="new york">
+        </div>
+        <div class="p-4  bg-white relative">
+            <a class="block sm:text-md font-semibold hover:text-blue-900 hover:underline
+            active:text-pink-600 focus:line-through" 
+            href="https://tailwindcss.com/" target="_blank">Tailwind CSS is amasing once you 
+                understand. The <span class="bg-yellow-500 p-[1.5px]">power</span> of it.
+            </a>
+            <p class="mt-4">I am very happy to learn tailwind css and adding another skills in my skills.</p>
+            <div class="uppercase tracking-wide text-sm text-slate-800 0-500 mt-4 text-end 
+            font-medium line-through md:absolute md:bottom-14 md:right-3">
+                An awesome <span class="bg-blue-500 p-[1.8px]">city card</span>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
